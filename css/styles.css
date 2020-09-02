@@ -1,0 +1,30 @@
+body {
+    width: 1366px;
+}
+
+header {
+    height: 80px;
+    background-color: #2a2a2a;
+}
+.main-menu li{
+    float: left;
+    color: white;
+    text-decoration: None;
+}
+.main-menu a{
+    color: white;
+    text-decoration: None;
+}
+.call {
+    float: right;
+}
+.logo {
+    width: 35px;
+    height: 38px;
+    margin: 21px 51px 21px 100px;
+    display: block;
+    background-image: url(logo-svg.png);
+}
+.logo:hover {
+    opacity: 0.4;
+}
