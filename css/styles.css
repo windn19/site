@@ -33,8 +33,8 @@ header {
 }
 .main-menu li:not(:first-child) {
     margin-top: 28px;
-    padding: 0px 25px;
+    padding: 0px 24px;
 }
 .main-menu li:nth-child(2) {
-    padding-left: 51px;
+    padding-left: 50px;
 }
