@@ -18,7 +18,7 @@ header {
     height: 38px;
     margin: 21px 0px 21px 100px;
     display: block;
-    background-image: url(logo-svg.png);
+    background-image: url(image/logo-svg.png);
 }
 .logo:hover {
     opacity: 0.4;
@@ -37,4 +37,19 @@ header {
 }
 .main-menu li:nth-child(2) {
     padding-left: 50px;
+}
+.main-menu li:last-child {
+    padding-left: 25px;
+}
+.call a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+.tel {
+    width: 14px;
+    height: 14px;
 }
