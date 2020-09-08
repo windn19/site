@@ -41,20 +41,19 @@ header {
 .main-menu li:last-child {
     padding-left: 25px;
 }
-.call a {
+.number {
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Roboto";
     text-decoration: none;
-    margin-top: 1px;
-    margin-right: 8px;
 }
 .tel {
     width: 14px;
     height: 14px;
-    padding-left: 100px
+    margin-right: 5px;
+    margin-bottom: -2px;
 }
 .call button {
     margin: 20px 100px 0 37px;
