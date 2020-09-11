@@ -63,13 +63,26 @@ body {
     width: 165px;
     height: 40px;
     border-radius: 20px;
-    background-color: #2a2a2a;
+    background-color: #000000;
     border: 1px solid #ffffff;
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Roboto";
+}
+.call button:hover {
+    color: #2a2a2a;
+    background-color: #ffffff;
+}
+.flat h2 {
+    font-size: 32px;
+    line-height: 48px;
+    color: #2a2a2a;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 38px 0 48px 0;
 }
 .clearfix {
     clear: both;
