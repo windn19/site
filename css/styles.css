@@ -21,9 +21,6 @@ body {
     display: block;
     background-image: url(image/logo-svg.png);
 }
-.logo:hover {
-    opacity: 0.4;
-}
 .main-menu li a {
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -31,6 +28,9 @@ body {
     color: #ffffff;
     font-weight: 500;
     text-decoration: None;
+}
+.main-menu li a:hover {
+    opacity: 0.4;
 }
 .main-menu li:not(:first-child) {
     margin-top: 28px;
@@ -75,7 +75,7 @@ body {
     color: #2a2a2a;
     background-color: #ffffff;
 }
-.flat h2 {
+.flat-first h2 {
     font-size: 32px;
     line-height: 48px;
     color: #2a2a2a;
@@ -83,6 +83,22 @@ body {
     font-family: "Roboto";
     text-align: center;
     margin: 38px 0 48px 0;
+}
+.flats {
+    margin: 0 100px;
+}
+.flats .flat {
+    float: left;
+    width: 370px;
+    height: 366px;
+    background-color: red;
+    margin: 14px;
+}
+.flats .flat:nth-child(3n+1) {
+    margin-left: 0;
+}
+.flats .flat:nth-child(3n+3) {
+    margin-right: 0;
 }
 .clearfix {
     clear: both;
