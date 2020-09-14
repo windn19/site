@@ -122,13 +122,16 @@ body {
     float: left;
 }
 .flats .flat .params .human {
-    width: 16px;
+    background-image: url(image/human.svg);
+    width: 12px;
     height: 16px;
+    margin: 0 9px 0 41px;
 }
 .flats .flat .params .place {
+    background-image: url(image/bed.svg);
     width: 14px;
     height: 16px;
-    background-position: 0 -16px;
+    margin: 0 6px 0 10px;
 }
 .clearfix {
     clear: both;
