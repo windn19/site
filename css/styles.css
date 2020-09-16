@@ -119,19 +119,22 @@ body {
     color: #2a2a2a;
     font-weight: 400;
     font-family: "Roboto";
-    float: left;
 }
 .flats .flat .params .human {
     background-image: url(image/human.svg);
     width: 12px;
     height: 16px;
-    margin: 0 9px 0 41px;
+    margin: 0px 10px 0 10px;
 }
 .flats .flat .params .place {
     background-image: url(image/bed.svg);
     width: 14px;
     height: 16px;
-    margin: 0 6px 0 10px;
+}
+.params li {
+   float: left;
+   display: block;
+   vertical-align: middle;
 }
 .clearfix {
     clear: both;
