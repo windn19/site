@@ -115,16 +115,14 @@ body {
 }
 .flats .flat .params li {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 16px;
     color: #2a2a2a;
     font-weight: 400;
     font-family: "Roboto";
 }
 .flats .flat .params .human {
-    background-image: url(image/human.svg);
     width: 12px;
     height: 16px;
-    margin: 0px 10px 0 10px;
 }
 .flats .flat .params .place {
     background-image: url(image/bed.svg);
@@ -133,8 +131,8 @@ body {
 }
 .params li {
    float: left;
-   display: block;
-   vertical-align: middle;
+   display: flex;
+   align-items: center;
 }
 .clearfix {
     clear: both;
