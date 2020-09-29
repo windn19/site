@@ -114,6 +114,12 @@ body {
     font-family: "Roboto";
     padding: 22px 0 17px 40px;
 }
+.base-desc .address{
+    font-weight: 400;
+}
+.base-desc:first-child .address {
+    font-weight: 700;
+}
 .base-desc span {
     margin-left: -1px;
 }
@@ -121,7 +127,10 @@ body {
     margin-left: -1px;
 }
 .flat:nth-child(2) .base-desc {
-    margin-top: -1px;
+    margin-top: 0;
+}
+.flat:nth-child(2) .params {
+    margin-left: 41px;
 }
 .flats .flat .params li {
     font-size: 14px;
