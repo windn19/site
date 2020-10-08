@@ -117,20 +117,29 @@ body {
 .base-desc .rooms {
     font-weight: 700;
 }
-.base-desc:first-child .address {
-    color: red;
+.flat:first-child .base-desc .address {
+    font-weight: 700;
 }
 .base-desc span {
     margin-left: -1px;
 }
 .flat:nth-child(2) .base-desc span {
-    margin-left: -1px;
+    margin-left: 1px;
 }
 .flat:nth-child(2) .base-desc {
     margin-top: 0;
 }
 .flat:nth-child(2) .params {
+    margin-top: -1px;
     margin-left: 41px;
+}
+.flat:nth-child(3) .params{
+    margin-left: 41px;
+    margin-top: -1px;
+}
+.flat:nth-child(5) .base-desc {
+    margin-left: -1px;
+    margin-top: 1px;
 }
 .flats .flat .params li {
     font-size: 14px;
@@ -178,6 +187,9 @@ body {
     position: absolute;
     left: 271px;
     top: 15px;
+}
+.flat:nth-child(4) .price {
+    top: 16px
 }
 .clearfix {
     clear: both;
